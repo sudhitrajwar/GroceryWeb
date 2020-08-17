@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> GROCERY</title>
+</head>
+<style>
+    body{
+        margin :0px;
+        padding: 0px;
+        background-color: greenyellow;
+      color: white;
+    }
+.left {
+     display: inline-block;
+    position: absolute;
+    left :60px;
+    top:12px;
+    }
+    .left img{
+        width: 134px;
+        filter: invert(100%);
+    }
+    .left div{
+        text-align: left;
+        font-size: 26px;
+        line-height: 19px;
+font-family: monospace;
+        color: black;
+    }
+.mid{
+  
+    display: block;
+    width: 50%;
+    margin: 12px auto;
+
+}
+.right{
+
+    display: inline-block;
+  
+    position: absolute;
+    right :27px;
+    top:27px;
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li {
+    font-family: monospace;
+    display: inline-block;
+    font-size: 25px;
+}
+.navbar li a{
+ 
+    color: black    ;
+text-decoration: none;
+padding: 34px 23px;
+display: inline-block;
+font-family: 'Baloo bhai', cursive;
+}
+.navbar li a:hover{
+    font-family: monospace; 
+ text-decoration: underline;
+ color: blue;
+}
+.btn{
+font-family: monospace;
+    margin: 0px 9px;
+    background-color:black;
+    color:white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+ text-align: center;
+
+}
+.btn:hover{
+         background-color: grey;
+}
+.container{
+font-family: monospace;
+    border: 2px solid black;
+    margin: 63px 48px;
+    padding: 75px 75px;
+    width: 33%;
+    border-radius: 55px;
+ text-align: center;
+
+}
+.form input{
+ padding:5px 2px;
+ margin:2px 2px;
+ text-align: center;
+ display: block;
+ width : 508px;
+ font-size:25px;
+ border-radius: 8px;
+ font-family: 'Baloo bhai', cursive;
+ 
+}
+.container h1{
+    text-align: center;
+    color: black;
+}
+
+</style> 
+<body>
+    <header class="header">
+        <div class= "left">
+<img src= "grocery.png">
+        </div> 
+    <div class="mid">
+        <ul class="navbar">
+            <li><a href="#" class="active">Home </a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Buy Now</a></li>
+            <li><a href="#">Our Patners</a>
+            </li>
+            
+            </ul>
+        
+    </div>    
+<div class="right">
+<button class="btn">Call us now</button> <button class="btn">Email Us</button>
+</div> 
+</header>
+<div class="container">
+   <h1>Register Now and get 50% off on all groceries!!</h1>
+<div class="form">
+   <input type="text" name="" placeholder="Enter your name">
+</div>
+<div class="form">
+    <input type="text" name="" placeholder="Enter your Phone no.">
+ </div>
+ <div class="form">
+    <input type="text" name="" placeholder="Enter your Email">
+ </div>
+ <div class="form">
+    <input type="text" name="" placeholder="Enter your Locality">
+ </div>
+ <button class="btn">Submit</button>
+</form>
+</div>
+</html>
